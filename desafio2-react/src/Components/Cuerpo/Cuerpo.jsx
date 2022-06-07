@@ -3,7 +3,7 @@ import { Navbar, Container, Nav, } from "react-bootstrap"
 //IMPORT DEL LOGO DEL CARRITO
 import cart from '../../asset/img/cart.jpeg'
 //IMPORT DE CSS
-import '../../estilo/estilo.css'
+import '../../Components/estilo/estilo.css'
 
 
 export default function Cuerpo(){
