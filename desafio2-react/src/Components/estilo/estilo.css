@@ -41,3 +41,9 @@
     left: 39%;
     
 }
+
+.divCars{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

@@ -16,7 +16,7 @@ function App() {
     <>
     <Cuerpo/>
     <ItemListContainer saludo='Bienvenido a la pagina wed' />
-    < ItemCount stock = '5'/>
+    <ItemCount stock = '5'/>
     </>
 
   );
