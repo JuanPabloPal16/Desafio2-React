@@ -1,7 +1,7 @@
 let productos = [{
     id: '1',
     Nombre:'Jean 1',
-    //Img:'',
+    Img:"../../asset/img/jean2.png",
     Descripcion:'Short negro',
     Precio:'$1500',
 },
