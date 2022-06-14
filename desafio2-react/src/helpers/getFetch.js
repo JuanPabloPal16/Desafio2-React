@@ -1,7 +1,7 @@
 let productos = [{
     id: '1',
     Nombre:'Jean 1',
-    Img:"../../asset/img/jean2.png",
+    foto: 'https://ibb.co/xGznR0B',
     Descripcion:'Short negro',
     Precio:'$1500',
 },
@@ -36,6 +36,25 @@ export const getFetch =() =>{
     return new Promise((resolver,reject)=>{
         setTimeout(()=>{
             resolver(productos)
+        },2000)
+    })
+}
+
+
+let producto={
+    id: '1',
+    Nombre:'Jean 1',
+    
+    Img:"../../asset/img/jean2",
+    Descripcion:'Short negro',
+    Precio:'$1500',
+}
+
+
+export const getFetch1 =() =>{
+    return new Promise((resolver,reject)=>{
+        setTimeout(()=>{
+            resolver(producto)
         },2000)
     })
 }

@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
 //IMPORT DE BOTON
 import  ItemCount from './Components/VistaContador/VistaContador.jsx';
+import ItemDetailContainer from './Components/ItemDetailContainer/ItemDetailContainer';
 
 
 
@@ -17,6 +18,7 @@ function App() {
     <Cuerpo/>
     <ItemListContainer saludo='Bienvenido a la pagina wed' />
     <ItemCount stock = '5'/>
+    <ItemDetailContainer/>
     </>
 
   );
